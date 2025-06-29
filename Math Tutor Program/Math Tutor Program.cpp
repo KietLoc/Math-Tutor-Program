@@ -4,19 +4,20 @@ using namespace std;
 double a, b, c;
 char d;
 
-static double calcAdd(double a, double b)
+static double calcAdd(double a, double b) //Perform Addition
 {
     return a + b;
 }
 
 int main()
 {
-	cout << "Enter the first number of your addition: " << endl;
+	//Get values for addition
+    cout << "Enter the first number of your addition: " << endl;
 	cin >> a;
 	cout << "Enter the second number of your addition: " << endl;
 	cin >> b;
 
-    double c = calcAdd(a, b);
+    double c = calcAdd(a, b); 
 
     cout << "Press 'P' and hit Enter to see the result: " << endl;
 
