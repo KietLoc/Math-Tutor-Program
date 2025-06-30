@@ -32,7 +32,10 @@ int main()
             break;
     }
 
-    cout << "The answer is: " << a << " + " << b << " = " << c << endl;
+    cout << "The answer is: " << endl;
+    cout << "   " << a << endl;
+    cout << " + " << b << endl;
+    cout << " = " << c << endl;
 
     return 0;
 }
